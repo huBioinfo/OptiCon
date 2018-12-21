@@ -15,6 +15,9 @@
 
 /sw/matlab/el6/current/bin/matlab -nodisplay -nodesktop -nosplash -r gen_inputs_Files  #one should specify the absolute path of the executable Matlab program in your HPC.
 
+mkdir mFiles
+mkdir shFiles
+
 python gen_m_sh_qsubFiles.py
 
 mv ./mFiles/* ./
