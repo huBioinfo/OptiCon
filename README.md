@@ -34,6 +34,5 @@ Put the following data in the "inputData" folder:
   Parameter 8: The value of epsilon used in computing ICV;  
   Parameter 9: The value of lambda used in computing ICV;  
   Parameter 10: The boolean value of true or false, which means using the control range(in “CRfile” folder) that you calculated before or not;  
-  Parameter 11: The number of parallel computing thread pools, which is usually set to the number of CPU cores.  
 For example: java -Xms8g -Xmx8g -jar OptiCon_java.jar D:\JavaProject\jar MyGeneNetwork.txt DScore.txt GeneExpression.txt RecurMutant_entrez.txt \t 1000 0.18 0.3 true 
 ### View the result in “output” folder after running
