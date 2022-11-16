@@ -23,7 +23,7 @@ Put the following data in the "inputData" folder:
 ### Running OptiCon_java.jar
 1. Open the "cmd" command window.  
 2. Go to the directory where the “OptiCon_java.jar” package resides.  
-3. Enter the following command to run the jar package：java -Xms8g -Xmx8g -jar OptiCon_java.jar [parameter 1] [parameter 2] [parameter 3] [parameter 4] [parameter 5] [parameter 6] [parameter 7] [parameter 8] [parameter 9] [parameter 10] [parameter 11]  
+3. Enter the following command to run the jar package：java -Xms8g -Xmx8g -jar OptiCon_java.jar [parameter 1] [parameter 2] [parameter 3] [parameter 4] [parameter 5] [parameter 6] [parameter 7] [parameter 8] [parameter 9] [parameter 10] 
   Parameter 1: The directory of three folders("CRfile", "inputData" and "output")；  
   Parameter 2: The name of gene regulatory network file；  
   Parameter 3: The name of gene deregulation file;  
@@ -35,5 +35,5 @@ Put the following data in the "inputData" folder:
   Parameter 9: The value of lambda used in computing ICV;  
   Parameter 10: The boolean value of true or false, which means using the control range(in “CRfile” folder) that you calculated before or not;  
   Parameter 11: The number of parallel computing thread pools, which is usually set to the number of CPU cores.  
-For example: java -Xms8g -Xmx8g -jar OptiCon_java.jar D:\JavaProject\jar MyGeneNetwork.txt DScore.txt GeneExpression.txt RecurMutant_entrez.txt \t 1000 0.18 0.3 true 6
+For example: java -Xms8g -Xmx8g -jar OptiCon_java.jar D:\JavaProject\jar MyGeneNetwork.txt DScore.txt GeneExpression.txt RecurMutant_entrez.txt \t 1000 0.18 0.3 true 
 ### View the result in “output” folder after running
